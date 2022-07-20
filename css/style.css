@@ -1,6 +1,8 @@
 ﻿html, body {
     background: #000 url(../media/bg.png) no-repeat top center fixed;
-    background-size: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     font-family: 'Lato', sans-serif;
 }
 
