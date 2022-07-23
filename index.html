@@ -1,39 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>tonoco服务器</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tonoco服务器</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/tonoco.css" rel="stylesheet" />
 
-	<meta charset="utf-8">
-	<meta name="keywords" content="minecraft, server, homepage" />
-	<meta name="description" content="Cave website template by artur9010" />
-	<meta name="author" content="artur9010" />
-
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet'>
-
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css"/>
 </head>
+
 <body>
+    <div class="tm-container">        
+        <div>
+            <div class="tm-row pt-4">
+                <div class="tm-col-left">
+                    <div class="tm-site-header media">
+                        <div class="media-body">
+                            <h1 class="tm-sitename text-uppercase">tonoco</h1>
+                            <p class="tm-slogon">1.19纯净生存服务器</p>
+                        </div>        
+                    </div>
+                </div>
+                <div class="tm-col-right">
+                    <nav class="navbar navbar-expand-lg" id="tm-main-nav">
+                        <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button" 
+                            data-toggle="collapse" data-target="#navbar-nav" 
+                            aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                            <ul class="navbar-nav text-uppercase">
+                                <li class="nav-item active">
+                                    <a class="nav-link tm-nav-link" href="#">主页 <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="player_list.html">玩家列表</a>
+                                </li>                          
+                            </ul>                            
+                        </div>                        
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="tm-row">
+                <div class="tm-col-left"></div>
+                <main class="tm-col-right">
+                    <section class="tm-content">
+                        <h2 class="mb-5 tm-content-title">欢迎来到tonoco服务器</h2>
+						<p class="mb-5">由于资金问题 我们还不能将服务器托管至机房</br>北方线路:north.tonoco.fun</br>南方线路:south.tonoco.fun</br>香港线路:hongkong.tonoco.fun</br>*需要使用外置登录与白名单来登录服务器！外置登录的皮肤站：<a href="https://littleskin.cn" style="color:grey;">LittleSkin</a></p>
+                        <hr class="mb-5">
+						<h2 class="mb-5 tm-content-title">我们的历史</h2>
+                        <p class="mb-5">tonoco服务器前身为lex-mc小游戏服务器，成立于2016年，由于人员流失在2019年关服，积累了大量开服的经验、插件编写/配置经验。
+						现在的tonoco服务器版本为1.19，对各项都进行了优化。腐竹MOxXiE一揽插件编写职务，解决在高版本插件少的问题。有需求可以向腐竹938583253提出，其将在非工作日第一时间编写并更新！</p>                        
+                        <a href="https://jq.qq.com/?_wv=1027&k=Weelyj5a" class="btn btn-primary">加入QQ群</a>
+                    </section>
+                </main>
+            </div>
+        </div>        
 
-	<body>
-		<div id="content">
-			<h1 style="color:white;text-align: center;">Tonoco Server</h1>
-			<div class="clear"></div>
-			<div id="menu">
-				<ul>
-					<li><a href="index.html"><i class="fa fa-home"></i> 主页</a></li>
-					<li><a href="player_list.html"><i class="fa fa-cloud"></i> 玩家列表</a></li>
-				</ul>
-			</div>
+        <div class="tm-row">
+            <div class="tm-col-left text-center">            
+                <ul class="tm-bg-controls-wrapper">
+                    <li class="tm-bg-control active" data-id="0"></li>
+                    <li class="tm-bg-control" data-id="1"></li>
+                    <li class="tm-bg-control" data-id="2"></li>
+                </ul>            
+            </div>        
+            <div class="tm-col-right tm-col-footer">
+                <footer class="tm-site-footer text-right">
+                    <p class="mb-0">Copyright 2022 tonoco.fun</p>
+                </footer>
+            </div>  
+        </div>
 
-			<div class="common_box">
-				<h3>我的世界版本:1.19</h3>
-				<p>北方线路: <b>north.tonoco.fun</b><br/>南方线路: <b>sourth.tonoco.fun</b><br/>香港线路: <b>hongkong.tonoco.fun</b></p>
-			</div>
+        <div class="tm-bg">
+            <div class="tm-bg-left"></div>
+            <div class="tm-bg-right"></div>
+        </div>
+    </div>
 
-			<div class="common_box">
-				<h5>Copyright &copy 2022 tonoco.fun</h5>
-			</div>
-		</div>
-	</body>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/tonoco.js"></script>
+</body>
 </html>
