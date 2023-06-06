@@ -8,5 +8,10 @@
   {
     "module": "vguimatsurface",
     "signature": "55 8B EC B9 ? ? ? ? 5D E9 B2 6D 00 00"
+  },
+  "ISurface::SetFontGlyphSet":
+  {
+    "module": "vguimatsurface",
+    "signature": "55 8B EC B9 ? ? ? ? 5D E9 E2 68 00 00"
   }
 }
