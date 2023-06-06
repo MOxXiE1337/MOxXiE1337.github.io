@@ -13,5 +13,10 @@
   {
     "module": "vguimatsurface",
     "signature": "55 8B EC B9 ? ? ? ? 5D E9 E2 68 00 00"
+  },
+  "ImFontAtlas::AddFont[0]":
+  {
+    "module": "__CHEAT__",
+    "signature": "53 55 8B 6C 24 0C 8B D9"
   }
 }
