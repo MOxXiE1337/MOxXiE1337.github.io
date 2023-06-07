@@ -38,5 +38,10 @@
   {
     "module": "__CHEAT__",
     "signature": "53 55 8B 6C 24 0C 8B D9"
+  },
+  "ImFontAtlas::AddFont[1]": // from airflow
+  {
+    "module": "__CHEAT__",
+    "signature": "55 8B EC 83 EC 08 8B 45 08 8B"
   }
 }
