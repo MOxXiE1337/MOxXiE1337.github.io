@@ -29,7 +29,7 @@
     "module": "__CHEAT__",
     "signature": "83 EC 0C 53 8B 5C 24 28"
   },
-  "ImFont::CaclTextSizeA[1]": // from airflow
+  "ImFont::CalcTextSizeA[1]": // from airflow
   {
     "module": "__CHEAT__",
     "signature": "55 8B EC 83 EC 10 53 8B 5D 1C"
