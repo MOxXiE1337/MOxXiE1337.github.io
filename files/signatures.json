@@ -1,4 +1,5 @@
 {
+  // surface functions
   "ISurface::DrawPrintText": 
   {
     "module": "vguimatsurface",
@@ -14,34 +15,39 @@
     "module": "vguimatsurface",
     "signature": "55 8B EC B9 ? ? ? ? 5D E9 E2 68 00 00"
   },
-  "ImFont::RenderText[0]": // from millionware
+  
+  // millionware crack
+  "ImFont::RenderText[0]": 
   {
     "module": "__CHEAT__",
     "signature": "83 EC 34 53 55 56 8B"
   },
-  "ImFont::RenderText[1]": // from airflow
-  {
-    "module": "__CHEAT__",
-    "signature": "55 8B EC 83 EC 30 56"
-  },
-  "ImFont::CalcTextSizeA[0]": // from millionware
+   "ImFont::CalcTextSizeA[0]":
   {
     "module": "__CHEAT__",
     "signature": "83 EC 0C 53 8B 5C 24 28"
   },
-  "ImFont::CalcTextSizeA[1]": // from airflow
-  {
-    "module": "__CHEAT__",
-    "signature": "55 8B EC 83 EC 10 53 8B 5D 1C"
-  },
-  "ImFontAtlas::AddFont[0]": // from millionware
+  "ImFontAtlas::AddFont[0]":
   {
     "module": "__CHEAT__",
     "signature": "53 55 8B 6C 24 0C 8B D9"
   },
-  "ImFontAtlas::AddFont[1]": // from airflow
+  
+  // airflow crack
+  "ImFont::RenderText[1]":
+  {
+    "module": "__CHEAT__",
+    "signature": "55 8B EC 83 EC 30 56"
+  },
+  "ImFont::CalcTextSizeA[1]": 
+  {
+    "module": "__CHEAT__",
+    "signature": "55 8B EC 83 EC 10 53 8B 5D 1C"
+  },
+  "ImFontAtlas::AddFont[1]":
   {
     "module": "__CHEAT__",
     "signature": "55 8B EC 83 EC 08 8B 45 08 8B"
   }
+  
 }
